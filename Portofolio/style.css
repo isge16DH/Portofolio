@@ -1,0 +1,43 @@
+/*
+Theme Name: Portfolio theme
+Author: George Iskef
+Description: A theme to present creative work
+*/
+
+body {
+    background: #e7e7e7;
+    
+}
+
+header {
+     background: #fff;
+     width: 100%;
+     height: 100px;
+}
+
+
+
+.container{
+    display: inline-block;
+    
+    right: 20px;
+    margin-bottom: 50px;
+}
+.container ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+.container li {
+    margin-left: 20px;
+    display: inline;
+    font-weight:bold;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: #000;
+    font-size:20px;
+}
