@@ -9,7 +9,9 @@
 		<?php the_content();?>
 		<?php endwhile; endif; ?>
 	</div>
-
+	<?php
+	get_template_part('partials/content');
+	?>
 	<?php 
 	get_footer(); 
 	?>

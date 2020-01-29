@@ -11,7 +11,9 @@
 		<?php the_content();?>
 		<?php endwhile; endif; ?>
 	</div>
-
+	<?php
+	get_template_part('partials/postgrid');
+	?>
 	<?php 
 	get_footer(); 
 	?>

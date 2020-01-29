@@ -14,9 +14,9 @@
                 )
             )?>
         </div>
-        <div>
-            <ul style=" padding:0; list-style-type: none">
-                <?php dynamic_sidebar( 'Project sidebar' ); ?>
-            </ul>
-        </div>
     </header>
+    <div>
+        <ul style=" padding:0; list-style-type: none">
+            <?php dynamic_sidebar( 'Project sidebar' ); ?>
+        </ul>
+    </div>
